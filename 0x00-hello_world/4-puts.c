@@ -1,11 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  *main - Entry point
  *
  *Return: Alwaus 0 (Success)
  */
-init main(void)
+int main(void)
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
