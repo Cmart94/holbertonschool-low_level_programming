@@ -5,7 +5,7 @@
  *
  *Return: Always 0 (Succes)
  */
-char main(void)
+int main(void)
 {
 	char ch;
 
