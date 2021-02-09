@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 
 /**
  *_islower - funcion detectar minusculas
@@ -9,7 +8,7 @@
  */
 int _islower(int c)
 {
-	int resultLower = islower(c);
+	int resultLower = _islower(c);
 
 	if (resultLower > 0)
 	{
