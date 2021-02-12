@@ -19,6 +19,7 @@ int main(void)
 			printf("Buzz ");
 		else
 			printf("%d ", n);
+		purchar('\n');
 	}
 	return (0);
 }
