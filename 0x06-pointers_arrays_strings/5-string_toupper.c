@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes lowercase letters to uppercase
- * @s; string to modify
+ * @s: string to modify
  * Description: none
  * Return: Char s modify
  */
