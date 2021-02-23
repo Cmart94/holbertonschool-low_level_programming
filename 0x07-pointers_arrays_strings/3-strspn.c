@@ -3,7 +3,7 @@
 /**
  *  _strspn - function that gets the length of a prefix substring
  * @s: string to search within
- * @accept: string that you want to find
+ * @accept: string that you want to find.
  * Return: number of bytes in the initial segment of s which consist
  * only of bytes from accept.
  */
