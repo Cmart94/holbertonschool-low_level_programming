@@ -9,3 +9,6 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int sqrtDown(int i, int k);
 int checkPrime(int n, int i);
+int strlength(int i, char *s);
+int CheckPalindrome(int i, int len, char *s);
+
