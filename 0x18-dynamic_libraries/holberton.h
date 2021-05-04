@@ -7,8 +7,8 @@
 
 int _putchar(char c);
 void _islower(void);
-void _isalpha();
-void _abs();
+void _isalpha(void);
+void _abs(void);
 void _isupper(void);
 void _isdigit(void);
 int _strlen(char *s);
