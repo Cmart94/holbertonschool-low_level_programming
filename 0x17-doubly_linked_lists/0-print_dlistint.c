@@ -8,7 +8,8 @@
 size_t print_dlistint(const dlistint_t *h)
 {
 	const dlistint_t *nextnode = h;
-	int count = 0;  
+	int count = 0;
+
 	while (nextnode != NULL)
 	{
 		printf("%d\n", nextnode->n);
