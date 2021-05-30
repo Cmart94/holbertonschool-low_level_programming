@@ -1,10 +1,17 @@
 #include "hash_tables.h"
 
+/**
+ * hash_table_set - fuctions for create a index of a hash table
+ * @ht: hash table
+ * @key: key word
+ * @value: value to store in the key
+ * Return: 1 on Succes, 0 if any error
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *node = malloc(sizeof(hash_node_t));
 	unsigned long int index;
-  
+
 	if (node == NULL || ht == NULL)
 		return (0);
 	if (key == NULL || strlen(key) == 0)
